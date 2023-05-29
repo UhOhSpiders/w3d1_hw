@@ -1,13 +1,67 @@
-header{
-    background-color: lightblue;
-    width: 100%;
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+header, footer {
+    background-color: #0081a7;
+    color: #FDFCDC;
+    display: flex;
+    padding: 20px;
+}
+
+h1{
+    display: block;
+    /* color: #FDFCDC; */
+}
+
+ol{
+    display: block;
+    list-style-type: none;
+}
+
+ol > li > a{
+    color: white;
+}
+
+#top-section{
+    padding: 30px;
+}
+
+#bottom-section{
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .article-image {
     width: 300px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 80px;
 }
 
 .profile-pic{
-    width:150px;
+    object-fit: cover;
+    height: 140px;
+    width: 150px;
+    
     border-radius: 100%;
+}
+
+.comment-post-date{
+    font-size: 11px;
+
+}
+
+.article-preview-text{
+    text-decoration: none;
+}
+
+.article-preview-text:hover{
+    color: black;
 }
