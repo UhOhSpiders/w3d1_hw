@@ -1,0 +1,13 @@
+header{
+    background-color: lightblue;
+    width: 100%;
+}
+
+.article-image {
+    width: 300px;
+}
+
+.profile-pic{
+    width:150px;
+    border-radius: 100%;
+}
